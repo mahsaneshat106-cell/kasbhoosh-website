@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="description" content="ورود به حساب کسب‌هوش؛ همراه هوشمند کسب‌وکارهای کوچک در خرده‌فروشی و پخش پوشاک زنانه"/>
+<title>ورود به کسب‌هوش | مدیریت ساده، رشد هوشمند</title>
+<link rel="icon" href="assets/official_app_icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="styles.css"/>
+</head><body class="login-page">
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg"><defs>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="m14 6-6 6 6 6"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M6 2h12v20H6zM11 18h2"/></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 6-4 9-9 11-5-2-9-5-9-11V6l9-4Z"/><path d="m8 12 3 3 5-6"/></symbol>
+</defs></svg>
+<header class="auth-header"><div class="container auth-header-inner"><a class="brand" href="index.html" aria-label="کسب‌هوش، صفحه اصلی"><img src="assets/official_green_wordmark.png" alt="لوگوی رسمی کسب‌هوش"/></a><a class="auth-back" href="index.html"><svg style="width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-arrow"/></svg> بازگشت به سایت</a></div></header>
+<main class="auth-shell">
+<section class="auth-card" aria-labelledby="loginTitle">
+  <span class="auth-label"><svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-shield"/></svg> حساب کاربری شما</span>
+  <h1 id="loginTitle">خوش آمدید به کسب‌هوش</h1>
+  <p class="auth-caption">برای ادامه مدیریت فروشگاهتان وارد شوید؛ ساده، سریع و بدون پیچیدگی.</p>
+  <div class="auth-info"><svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-shield"/></svg><span>حساب مالک در نسخه عملیاتی باید با تأیید دومرحله‌ای محافظت شود.</span></div>
+  <form id="loginForm" class="auth-form" novalidate>
+   <div class="auth-field"><label for="loginUsername">شماره موبایل یا ایمیل</label><div class="auth-input-wrap"><svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-phone"/></svg><input id="loginUsername" name="username" type="text" inputmode="email" autocomplete="username" placeholder="شماره موبایل یا ایمیل خود را وارد کنید" required/></div></div>
+   <div class="auth-field"><label for="loginPassword">رمز عبور</label><div class="auth-input-wrap"><svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-lock"/></svg><input id="loginPassword" name="password" type="password" autocomplete="current-password" placeholder="رمز عبور" required/><button id="togglePassword" type="button" aria-label="نمایش رمز عبور" aria-pressed="false"><svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-eye"/></svg></button></div></div>
+   <div class="auth-tools"><label><input type="checkbox" id="remember"/> مرا به خاطر بسپار</label><a href="mailto:mahsaneshat106@gmail.com?subject=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%DB%8C%20%D9%88%D8%B1%D9%88%D8%AF%20%D8%A8%D9%87%20%DA%A9%D8%B3%D8%A8%E2%80%8C%D9%87%D9%88%D8%B4">برای ورود کمک می‌خواهم</a></div>
+   <div class="auth-error" id="authError" role="alert" aria-live="polite"></div>
+   <button class="btn btn-primary auth-submit" type="submit">ادامه و ورود به حساب <svg style="fill:none;stroke:currentColor;stroke-width:1.8"><use href="#i-arrow"/></svg></button>
+  </form>
+  <div id="authNotice" class="auth-notice" role="status" aria-live="polite">این صفحه، پیش‌نمایش طراحی ورود است و هنوز به سامانه احراز هویت یا ارسال کد متصل نشده است. رمز عبور ارسال یا ذخیره نشد.</div>
+  <div class="auth-footer">تازه با کسب‌هوش آشنا شده‌اید؟ <a href="index.html#plans">پلن‌ها را ببینید</a></div>
+</section>
+<aside class="auth-visual" aria-label="تصویرسازی اختصاصی هوش مصنوعی و مدیریت مالی">
+  <img src="assets/login_ai_visual.png" alt="تصویر سه‌بعدی هوش مصنوعی مالی، نمودارهای رشد، کیف پول و ماشین‌حساب برای کسب‌هوش" />
+  <div class="auth-visual-content"><h2>هوشمندتر مدیریت کنید، آسوده‌تر رشد کنید.</h2><p>فروش، خرید و موجودی در یک فضای روشن و قابل فهم</p><div class="auth-pills"><span>خرده‌فروشی پوشاک</span><span>پخش پوشاک زنانه</span><span>حفظ کنترل مالک</span></div></div>
+</aside>
+</main>
+<footer class="auth-smallprint">کسب‌هوش · نسخه نمایشی صفحه ورود · داده و رمز عبور ارسال نمی‌شود</footer>
+<script src="login.js"></script>
+</body></html>
